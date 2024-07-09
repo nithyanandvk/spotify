@@ -341,3 +341,52 @@ a{
 .volume{
     width: 5rem;
 }
+
+@media (max-width: 1200px) {
+    .main {
+        flex-direction: column; /* Stack sidebar and content vertically */
+    }
+
+    .side-bar {
+        width: 100%; /* Take full width in smaller screens */
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-content {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .nav-option {
+        padding: 0.4rem; /* Adjust padding for smaller screens */
+    }
+
+    .cards-container {
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .card {
+        width: calc(50% - 1rem); /* Two cards per row */
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-container {
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .card {
+        width: 100%; /* Full width for cards */
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
