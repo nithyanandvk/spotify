@@ -344,11 +344,11 @@ a{
 
 @media (max-width: 1200px) {
     .main {
-        flex-direction: column; /* Stack sidebar and content vertically */
+        flex-direction: column;
     }
 
     .side-bar {
-        width: 100%; /* Take full width in smaller screens */
+        width: 100%; 
         margin-right: 0;
         margin-bottom: 0.5rem;
     }
@@ -360,19 +360,19 @@ a{
 
 @media (max-width: 768px) {
     .nav {
-        height: auto; /* Adjust height for smaller screens */
+        height: auto;
     }
 
     .nav-option {
-        padding: 0.4rem; /* Adjust padding for smaller screens */
+        padding: 0.4rem; 
     }
 
     .cards-container {
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
     }
 
     .card {
-        width: calc(50% - 1rem); /* Two cards per row */
+        width: calc(50% - 1rem);
         margin-left: 0.5rem;
         margin-top: 1rem;
     }
@@ -380,11 +380,11 @@ a{
 
 @media (max-width: 480px) {
     .cards-container {
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
     }
 
     .card {
-        width: 100%; /* Full width for cards */
+        width: 100%; 
         margin-left: 0;
         margin-top: 1rem;
     }
